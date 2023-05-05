@@ -3,8 +3,7 @@ import * as React from 'react';
 import Image from 'next/image';
 import {Inter} from 'next/font/google';
 import {FormEvent, useCallback, useState} from 'react';
-import client from './api/client';
-import {X_REQ} from '@mecho/env';
+import client from '../api/client';
 
 const inter = Inter({subsets: ['latin']});
 
